@@ -1,0 +1,193 @@
+/* font-family: 'Rajdhani', sans-serif; */
+
+@font-face {
+    font-family: Nova ;
+    src: url(./font/NovaSquare-Bold.ttf);
+}
+
+.myred{
+    color: rgb(139, 0, 0);
+}
+
+.mypink{
+    color: #c67f7f;;
+}
+
+.mywhite{
+    color: rgb(236, 236, 236); 
+}
+
+.bg-mywhite{
+    background-color: #ececec;
+}
+
+.bg-myred{
+    background-color: rgb(139, 0, 0);
+}
+
+
+li, p, h6, h4{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/* End fonts e colori */
+
+/* Navbar */
+
+
+
+/* end navbar */
+
+/* header */
+.img-custom{
+    height: 100px;
+}
+
+
+.bg-montagna{
+    background-image: url(./image/switzerland-862870_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.headtitolo{
+    font-family: Nova ;
+    letter-spacing: 40px;
+}
+
+.mytext{
+    margin-top: 60px;
+}
+
+.mycard{
+    margin-top: 100px;
+}
+
+.label-custom{
+    color: white;
+}
+
+input::-webkit-slider-thumb{
+    background-color: #8b0000 !important;
+    
+}
+input[type="range"]::-webkit-slider-runnable-track {
+    background: #ffffff;
+    height: 0.5rem;
+}
+
+.distanziatore{
+    height: 100px;
+    background-color: rgb(236, 236, 236);
+}
+
+.button-custom{
+    color: #ececec;
+    border-bottom: none solid #8b0000;
+    font-family: Nova;
+    margin-top: 200px;
+}
+
+.bg-alberibianchi{
+    background-image: url(./image/trees2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.vh-50{
+    height: 50vh;
+}
+
+.min-vh-50{
+    property: min-height
+    class: min-vh,
+    values: (100: 50vh)
+}
+
+.vh-75{
+    height: 75vh;
+}
+
+.min-vh-75{
+    property: min-height,
+    class: min-vh,
+    values: (100: 75vh)
+}
+
+.myimgtimeline{
+    background-image: url(./image/single.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mytimeline{
+    border-left: 2px solid rgb(139, 0, 0);
+}
+
+.mydistance{
+    margin-top: -20px;
+}
+.mypoint{
+position: relative;
+}
+
+.mydistance::before{
+    content: " ";
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border: 1px solid rgb(139, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    left: 94px;
+}
+
+
+
+.imgsize{
+    width: 120px;
+    border: 5px solid rgb(139, 0, 0);
+    border-radius: 50%;
+}
+
+.linksocial{
+    color: black;
+}
+
+.linksocialinsta{
+    color: purple;
+}
+
+.sizeimmagini{
+    width: 150px;
+    
+    border-radius: 50%;
+    outline: 5px solid #8b0000;
+}
+
+.alberirossi{
+    
+}
+
+/* footer */
+
+.colorefooter{
+    padding-top: 10px;
+    color: #ececec;
+}
+
+
+.linkcolor{
+    color: #ececec;
+    
+}
+
+.linkcolor:hover{
+    color: #ececec;
+
+}
+
+/* end footer */
